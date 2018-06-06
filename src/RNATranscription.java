@@ -1,3 +1,4 @@
+package src;
 
 class RNATranscription {
 	public static void main(String args[]) {
