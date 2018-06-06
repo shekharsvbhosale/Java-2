@@ -19,8 +19,6 @@ class Pangram {
 						if(letterCount == 26) {
 							strLetters[counter] = letter;
 							counter++;
-							System.out.println(letter);
-							System.out.println(counter);
 						}
 					}
 				}
@@ -28,8 +26,7 @@ class Pangram {
 		}
 		
 		Arrays.sort(strLetters);
-		System.out.println(strLetters);
-		System.out.println(strLetters[25]);
+		System.out.println("Your sentence is: " + str);
 
 		if(strLetters[25] == 'z' && strLetters[0] == 'a') {
 			System.out.println("This is a Pangram!");
