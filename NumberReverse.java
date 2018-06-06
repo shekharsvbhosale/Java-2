@@ -1,3 +1,4 @@
+
 class NumberReverse {
 	public static void main (String args[]) {
 		int num = 123456;
