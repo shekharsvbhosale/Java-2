@@ -1,6 +1,6 @@
 package src;
 
-public class ArmstrongNumber {
+class ArmstrongNumber {
 
 	public static void main(String[] args) {
 		int a = 1533;
