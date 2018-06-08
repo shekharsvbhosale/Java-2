@@ -3,9 +3,12 @@ package src;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-/* Strings for the dna:
-	dna1 = "GAGCCTACTAACGGGAT";
-	dna2 = "CATCGTAATGACGGCCT";
+/* program to compare two DNA strings and mark the differences
+ * output via console and JOptionPane
+ * input via JOption Pane
+ * Strings for the dna:
+ * dna1 = "GAGCCTACTAACGGGAT";
+ * dna2 = "CATCGTAATGACGGCCT";
  * */
  
 class Hamming {	
