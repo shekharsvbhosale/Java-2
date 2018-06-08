@@ -14,6 +14,11 @@ import java.awt.event.ActionListener;
 import java.util.Arrays;
 import java.awt.event.ActionEvent;
 
+/* Check a String if it´s a Pangram (a sentence, that contains all letters of the alphabet at least once)
+ * Input via Swing
+ * Output via Swing
+ */
+
 class PangramSwing extends JFrame {
 
 	private JPanel contentPane;
@@ -35,6 +40,7 @@ class PangramSwing extends JFrame {
 
 	// Create the frame.
 	public PangramSwing() {
+		setTitle("Is it a Pangram?");
 		setBackground(new Color(240, 240, 240));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 225);
