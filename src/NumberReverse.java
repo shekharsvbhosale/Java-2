@@ -1,6 +1,6 @@
 package src;
 
-/* Reverse a string
+/* Reverse an int
  * input is given
  * output is shown in the console
  *
