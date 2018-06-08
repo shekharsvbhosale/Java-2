@@ -1,6 +1,5 @@
 package src;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -13,6 +12,10 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
+/* reverse a String
+ * input via Swing
+ * output via Swing
+ */
 class NumberReverseSwing extends JFrame {
 
 	private JPanel contentPane;
@@ -34,6 +37,7 @@ class NumberReverseSwing extends JFrame {
 
 	//Create the frame.
 	public NumberReverseSwing() {
+		setTitle("Number Reverse");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 254);
 		contentPane = new JPanel();
