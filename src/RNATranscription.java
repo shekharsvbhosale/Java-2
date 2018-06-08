@@ -1,5 +1,10 @@
 package src;
 
+/* Program to transcript RNA to DNA
+ * input is give
+ * output via console
+ */
+
 class RNATranscription {
 	public static void main(String args[]) {
 		String rna = "G C A T G C G C A T G C";
