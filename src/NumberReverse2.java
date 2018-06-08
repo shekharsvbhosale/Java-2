@@ -3,7 +3,7 @@ package src;
 /* Reverse a String
  * input is given
  * output is shown in the console
- * String is reversed by using StringBuilde
+ * String is reversed by using StringBuilder
  */
 
 class NumberReverse2 {
