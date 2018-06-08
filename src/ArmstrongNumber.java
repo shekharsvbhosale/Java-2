@@ -1,5 +1,10 @@
 package src;
 
+/* program to check if a given number is an Armstrong number (a  number, which is the result of multiplying all digits like this: digit^index of the digit)
+ * input is given
+ * output via console
+ */
+
 class ArmstrongNumber {
 
 	public static void main(String[] args) {
