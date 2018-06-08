@@ -1,5 +1,11 @@
 package src;
 
+/* Reverse a String
+ * input is given
+ * output is shown in the console
+ * String is reversed by using StringBuilde
+ */
+
 class NumberReverse2 {
 	public static void main (String args[]) {
 		int num = 123456;
