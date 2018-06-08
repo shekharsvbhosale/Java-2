@@ -1,10 +1,5 @@
 package src;
 
-/* Reverse a String
- * input is given
- * output via console
- */
-
 class StringReverse { 
 	
 	public static void main(String args[]) {
