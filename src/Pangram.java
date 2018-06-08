@@ -2,6 +2,11 @@ package src;
 
 import java.util.Arrays;
 
+/* Check a String if it´s a Pangram (a sentence, that contains all letters of the alphabet at least once)
+ * Input manually
+ * Output in the console
+ */
+
 class Pangram {
 	public static void main(String[] args) {
 		String str = "The quick brown fox jumps over the lazy dog.";
