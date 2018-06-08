@@ -1,6 +1,6 @@
 package src;
 
-/* Program to transcript RNA to DNA
+/* Program to convert RNA to DNA
  * input is give
  * output via console
  */
