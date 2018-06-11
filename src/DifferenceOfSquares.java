@@ -2,7 +2,7 @@ package src;
 
 import javax.swing.JOptionPane;
 
-/* Program to calculate the difference in the square of the sum of a given number and the sum of the squares of the same number
+/* Program to calculate the difference in the square of the sum and the sum of the squares of n natural numbers 
  * input and output via JOptionPane
  */
 
