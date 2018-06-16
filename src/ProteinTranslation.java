@@ -2,7 +2,7 @@ package src;
 
 import javax.swing.JOptionPane;
 
-/* Program to translate an RNA to proteines
+/* Program to translate RNA sequences to proteins
  * the RNA is broken to codons and then translated to a polypeptide
  * example RNA to try out: AUGUUUUCUUAAAUG
  * this program doesn´t serve all possible cases of RNA translation, it was written to check the example
@@ -12,52 +12,52 @@ public class ProteinTranslation {
 	
 	String RNAToProteins(String str) {
 		StringBuilder rna = new StringBuilder(str);
-		StringBuilder proteines = new StringBuilder(" ");
-		StringBuilder proteine = new StringBuilder();
+		StringBuilder proteins = new StringBuilder(" ");
+		StringBuilder protein = new StringBuilder();
 		
 		proteinetranslation:
 		for(int i = 0; i <= (str.length() / 3); i++) {
 			
 			for(int a = 0; a < 3; a++) {
-				proteine.append(rna.charAt(a));
+				protein.append(rna.charAt(a));
 			}
 			
-			switch(proteine.toString()) {
-			case "AUG": proteines.append("Methionine");
+			switch(protein.toString()) {
+			case "AUG": proteins.append("Methionine");
 						break;
 			case "UUU": 
-			case "UUC": proteines.append("Phenylalanine");
+			case "UUC": proteins.append("Phenylalanine");
 						break;
 			case "UUA":
-			case "UUG": proteines.append("Leucine");
+			case "UUG": proteins.append("Leucine");
 						break;
 			case "UCU":
 			case "UCC":
 			case "UCA":
-			case "UCG": proteines.append("Serine");
+			case "UCG": proteins.append("Serine");
 						break;
 			case "UAU":
-			case "UAC": proteines.append("Tyrosine");
+			case "UAC": proteins.append("Tyrosine");
 						break;
 			case "UGU":
-			case "UGC": proteines.append("Cysteine");
+			case "UGC": proteins.append("Cysteine");
 						break;
-			case "UGG": proteines.append("Tryptophan");
+			case "UGG": proteins.append("Tryptophan");
 						break;
 			case "UAA":
 			case "UAG":
-			case "UGA": proteines.append("STOP");
+			case "UGA": proteins.append("STOP");
 						break proteinetranslation;
 			}
 			
 			if(i < (str.length() / 3)) 
-				proteines.append(", ");
+				proteins.append(", ");
 			
 			rna.delete(0, 3);
-			proteine.delete(0, 3);
+			protein.delete(0, 3);
 		}
 		
-		return proteines.toString();
+		return proteins.toString();
 	}
 
 	public static void main(String[] args) {
