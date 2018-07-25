@@ -8,13 +8,6 @@ import javax.swing.JOptionPane;
 
 public class AliquotSum {
 	
-	public static void main(String args[]) {
-		int number = Integer.parseInt(JOptionPane.showInputDialog("Enter a natural number to check if it´s a perfect number:"));
-		AliquotSum guess = new AliquotSum();
-
-		JOptionPane.showMessageDialog(null, guess.isPerfect(number));
-	}
-	
 	String isPerfect(int num) {
 		int result = 0;
 		String perfect = num + " is a perfect number!";
@@ -40,5 +33,12 @@ public class AliquotSum {
 		} else {
 			return deficient;
 		}
+	}
+	
+	public static void main(String args[]) {
+		int number = Integer.parseInt(JOptionPane.showInputDialog("Enter a natural number to check if it´s a perfect number:"));
+		AliquotSum guess = new AliquotSum();
+
+		JOptionPane.showMessageDialog(null, guess.isPerfect(number));
 	}
 }
