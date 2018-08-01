@@ -8,9 +8,7 @@ import javax.swing.JOptionPane;
 
 public class AliquotSum {
 		
-	String showNumberTypeOf(int num) {		
-		AliquotSum guess = new AliquotSum();
-		
+	String showNumberTypeOf(int num, AliquotSum guess) {		
 		if(guess.isANaturalNumber(num)) {
 			int result = guess.calculateResult(num);
 			return guess.checkAliquotSumOf(num, result);
@@ -60,7 +58,7 @@ public class AliquotSum {
 	public static void main(String args[]) {
 		int number = Integer.parseInt(JOptionPane.showInputDialog("Enter a natural number to check if it´s a perfect number:"));
 		AliquotSum thisGuess = new AliquotSum();
-		String numberType = thisGuess.showNumberTypeOf(number);
+		String numberType = thisGuess.showNumberTypeOf(number, thisGuess);
 
 		JOptionPane.showMessageDialog(null, numberType);
 	}
