@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 public class AliquotSum {
 		
-	String showNumberTypeOf(int num, AliquotSum guess) {		
+	public String showNumberTypeOf(int num, AliquotSum guess) {		
 		if(guess.isANaturalNumber(num)) {
 			int result = guess.calculateResult(num);
 			return guess.checkAliquotSumOf(num, result);
@@ -17,7 +17,7 @@ public class AliquotSum {
 		}		
 	}
 	
-	boolean isANaturalNumber(int num) {
+	public boolean isANaturalNumber(int num) {
 		if(num < 1) {
 			return false;
 		} else {
@@ -25,7 +25,7 @@ public class AliquotSum {
 		}
 	}
 	
-	int calculateResult(int num) {	
+	public int calculateResult(int num) {	
 		int result = 0;
 		
 		for(int i = 1; i < num; i++) {
@@ -36,7 +36,7 @@ public class AliquotSum {
 		return result;
 	}
 	
-	String checkAliquotSumOf(int num, int result) {
+	public String checkAliquotSumOf(int num, int result) {
 		String perfect = num + " is a perfect number!";
 		String abundant = num + " is an abundant number.";
 		String deficient = num + " is a deficient number.";
@@ -50,7 +50,7 @@ public class AliquotSum {
 		}
 	}
 	
-	String isAnError(int num) {
+	public String isAnError(int num) {
 		String error = num + " is not a natural number";
 		return error;
 	}
