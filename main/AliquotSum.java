@@ -17,7 +17,7 @@ public class AliquotSum {
 		}		
 	}
 	
-	public boolean isANaturalNumber(int num) {
+	private boolean isANaturalNumber(int num) {
 		if(num < 1) {
 			return false;
 		} else {
@@ -50,7 +50,7 @@ public class AliquotSum {
 		}
 	}
 	
-	public String isAnError(int num) {
+	private String isAnError(int num) {
 		String error = num + " is not a natural number";
 		return error;
 	}
