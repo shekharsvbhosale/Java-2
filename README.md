@@ -5,11 +5,11 @@ A collection of simple Java applications.
 I use Java 8 and Swing (partially).
 
 ## The applications
-### Acronym.java 
+### Acronym
 Convert an entered name to an acronym. I/O with JOptionPane. 
  
-### Aliqout Sum
-Calculate the aliquot sum of a number and specify its type
+### AliqoutSum
+Calculate the aliquot sum of a number and specify its type.
 
 Functions:
 - showNumberTypeOf()
@@ -36,3 +36,63 @@ Functions:
 	- I/O with JOptionPane
 		- Entering the number
 		- Show the result 
+
+### DifferenceOfSquares
+Calculate the difference between the square of the sum and the sum of the squares of n natural numbers.
+
+### FactorRaindrops
+Calculate all factors of a number with Swing I/O.
+
+### ISBNVerifier
+Check an ISBN-number if it´s a valid 10-ISBN.
+
+### LuhnAlgorithm
+Check the validity of a number with the Luhn algorithm.
+
+### Matrix
+Convert a String to a matrix array.
+
+### NumberReverse
+Reverse a number as a String.
+
+### NumberReverse2
+Reverse a number with StringBuilder.
+
+### NumberReverseSwing
+Number Reverse with Swing I/O.
+
+### Pangram
+Check a String if it´s a Pangram (contains all letters of the alphabet).
+
+### PangramSwing
+Check a String if it´s a Pangram with Swing.
+
+### ProteinTranslation
+Translate RNA sequences to proteins.
+
+### Proverbs
+Blanks in a proverb are filled with varying keyboard input.
+
+### RNATranscription
+Convert a RNA string to a DNA string.
+
+### Scrabble
+Calculate the Scrabble score of a word with JOptionPane I/O.
+
+### SecretHandshake
+Generate a secret handshake through decimal to binary convertion.
+
+### SpaceAgeSwing
+Convert an age into the age on other planets with Swing I/O.
+
+### StringReverse
+Reverse a String.
+
+### StringReverse2
+Reverse a String with StringBuilder.
+
+###StringReverseSwing
+Reverse a String with StringBuilder and Swing I/O.
+
+### SumOfMultiples
+Calculate all multiples of a number and show their total sum.
